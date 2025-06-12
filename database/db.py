@@ -5,8 +5,7 @@ from sqlalchemy.orm import sessionmaker
 
 # ✅ PostgreSQL connection string for Render
 SQLALCHEMY_DATABASE_URL = (
-    "postgresql://vessel_db_0fm3_user:kGT7Rh63gkkGE5pO4nhu3OwGBDFyGwoc@"
-    "dpg-d15a5n3uibrs73boj000-a/vessel_db_0fm3"
+    "postgresql://vessel_db_0fm3_user:kGT7Rh63gkkGE5pO4nhu3OwGBDFyGwoc@dpg-d15a5n3uibrs73boj000-a.oregon-postgres.render.com/vessel_db_0fm3"
 )
 
 # Create the engine and session
