@@ -1,0 +1,12 @@
+# Exported from Render on 2025-06-12T10:39:38Z
+services:
+- type: web
+  name: vessel_api
+  runtime: python
+  repo: https://github.com/dkfaisal99/vessel_api
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: uvicorn main:app --host=0.0.0.0 --port=10000
+  autoDeployTrigger: commit
+version: "1"
