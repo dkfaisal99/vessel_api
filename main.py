@@ -7,6 +7,7 @@ from crud import engine as engine_crud, gps as gps_crud
 
 models.Base.metadata.create_all(bind=engine)
 
+
 app = FastAPI()
 
 def get_db():
